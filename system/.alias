@@ -28,4 +28,4 @@ alias killosx="killfinder && killdock && killmenubar"
 alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
 
 #Weather
-alias weather ="meteo"
+alias weather="meteo"

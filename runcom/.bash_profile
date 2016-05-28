@@ -2,9 +2,10 @@
 
 [ -z “$PS1” ] && return
 
-DOTFILES_DIR = "$HOME/.dotfiles"
+DOTFILES_DIR="$HOME/.dotfiles"
 
 #order matters
-for DOTFILE in "$DOTFILES_DIR"/system/.{functions, alias} do
+for DOTFILE in "$DOTFILES_DIR"/system/.{function,alias}; do
+  echo "Applying $DOTFILE"
   [ -f "$DOTFILE" ] && . "$DOTFILE"
 done
