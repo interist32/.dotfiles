@@ -1,0 +1,31 @@
+#Shortcuts
+alias git="git"
+alias rr="rm -rf"
+
+#List aliases
+alias aliases="alias | sed 's/=.*//'"
+
+#Browsers
+alias chrome="open -a /Applications/Google\ Chrome.app/"
+alias safari="open -a /Applications/Safari.app/"
+
+#Start screensaver
+alias sss="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"
+
+#logoff
+alias logoff="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+#quick look from CL
+alias ql="qlmanage -p &>/dev/null"
+
+# Reload native apps
+alias killfinder="killall Finder"
+alias killdock="killall Dock"
+alias killmenubar="killall SystemUIServer NotificationCenter"
+alias killosx="killfinder && killdock && killmenubar"
+
+#Speet test
+alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
+
+#Weather
+alias weather ="meteo"

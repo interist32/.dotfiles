@@ -1,0 +1,4 @@
+meteo() {
+ local CITY=${1:-Moscow}
+ curl -4 "wttr.in/$CITY"
+}
