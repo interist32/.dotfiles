@@ -32,6 +32,6 @@
   ci = commit
   st = status
   br = branch
-  mlog = log --pretty=oneline --author=user.email -32
+  mlog = !git log --pretty=oneline --author=\"$(git config user.name)\"
   logg = log --graph
   cf = show --pretty="format:" --name-only
