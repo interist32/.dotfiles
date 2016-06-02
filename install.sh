@@ -2,6 +2,9 @@
 
 DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+#git-utils
+. "$DOTFILES_DIR/install/git-aware-prompt.sh"
+
 #Symlinks
 ln -sfv "$DOTFILES_DIR/runcom/.bash_profile" ~
 ln -sfv "$DOTFILES_DIR/runcom/.inputrc" ~
