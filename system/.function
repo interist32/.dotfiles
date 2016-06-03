@@ -8,3 +8,7 @@ pullbranch(){
   git pull origin $1
   git co $1
 }
+
+pushbranch(){
+  git push origin HEAD
+}

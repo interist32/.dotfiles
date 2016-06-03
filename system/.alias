@@ -15,7 +15,9 @@ alias 2tutu="cd ~/projects/tutu/projects/tutu"
 alias 2admin="cd ~/projects/tutu/projects/admin"
 alias 2lego="cd ~/projects/tutu/libraries/Lego"
 alias 2nickel="cd ~/projects/tutu/libraries/Nickel"
-alias pb="pullbranch"
+alias rmjs="rr ~/projects/tutu/projects/tutu/www/js4/bld/app/tours"
+alias pullb="pullbranch"
+alias pushb="pushbranch"
 
 #Start screensaver
 alias sss="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"
