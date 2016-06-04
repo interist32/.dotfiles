@@ -14,7 +14,8 @@ apps=(
   skype
   sublime-text3
   vlc
-  webstorm
+  webstorm,
+  genymotion
 )
 
 brew cask install "${apps[@]}"

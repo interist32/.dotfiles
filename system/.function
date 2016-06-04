@@ -3,7 +3,7 @@ meteo() {
  curl -4 "wttr.in/$CITY"
 }
 
-pullbranch(){
+tobranch(){
   git fetch origin $1
   git pull origin $1
   git co $1

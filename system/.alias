@@ -16,7 +16,7 @@ alias 2admin="cd ~/projects/tutu/projects/admin"
 alias 2lego="cd ~/projects/tutu/libraries/Lego"
 alias 2nickel="cd ~/projects/tutu/libraries/Nickel"
 alias rmjs="rr ~/projects/tutu/projects/tutu/www/js4/bld/app/tours"
-alias pullb="pullbranch"
+alias tob="tobranch"
 alias pushb="pushbranch"
 
 #Start screensaver
