@@ -15,9 +15,7 @@ apps=(
   sublime-text3
   vlc
   webstorm,
-  genymotion,
-  xquartz,
-  inkscape
+  genymotion
 )
 
 brew cask install "${apps[@]}"
