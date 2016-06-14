@@ -8,6 +8,6 @@ tobranch(){
   git co $1
 }
 
-pushbranch(){
+pushthis(){
   git push origin HEAD
 }

@@ -18,7 +18,7 @@ alias 2lego="cd ~/projects/tutu/libraries/Lego"
 alias 2nickel="cd ~/projects/tutu/libraries/Nickel"
 alias rmjs="rr ~/projects/tutu/projects/tutu/www/js4/bld/app/tours"
 alias tob="tobranch"
-alias pushb="pushbranch"
+alias pushthis="pushthis"
 alias pullthis="git pull origin \"$(git rev-parse --abbrev-ref HEAD)\""
 
 #Start screensaver
