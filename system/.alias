@@ -13,11 +13,13 @@ alias safari="open -a /Applications/Safari.app/"
 alias 2p="cd ~/projects/"
 alias 2tutu="cd ~/projects/tutu/projects/tutu"
 alias 2admin="cd ~/projects/tutu/projects/admin"
+alias 2libs="cd ~/projects/tutu/libraries"
 alias 2lego="cd ~/projects/tutu/libraries/Lego"
 alias 2nickel="cd ~/projects/tutu/libraries/Nickel"
 alias rmjs="rr ~/projects/tutu/projects/tutu/www/js4/bld/app/tours"
 alias tob="tobranch"
 alias pushb="pushbranch"
+alias pullthis="git pull origin \"$(git rev-parse --abbrev-ref HEAD)\""
 
 #Start screensaver
 alias sss="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"
