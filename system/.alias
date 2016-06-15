@@ -19,7 +19,7 @@ alias 2nickel="cd ~/projects/tutu/libraries/Nickel"
 alias rmjs="rr ~/projects/tutu/projects/tutu/www/js4/bld/app/tours"
 alias tob="tobranch"
 alias pushthis="pushthis"
-alias pullthis="git pull origin \"$(git rev-parse --abbrev-ref HEAD)\""
+alias pullthis="pullthis"
 
 #Start screensaver
 alias sss="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"

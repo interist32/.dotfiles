@@ -8,6 +8,12 @@ tobranch(){
   git co $1
 }
 
+pullthis(){
+  currentBranch=$(git branch | grep -E '^\* ' | sed 's/^\* //g')
+	git pull origin $currentBranch
+}
+
 pushthis(){
-  git push origin HEAD
+  currentBranch=$(git branch | grep -E '^\* ' | sed 's/^\* //g')
+  git push origin $currentBranch
 }
