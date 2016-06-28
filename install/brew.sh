@@ -9,6 +9,7 @@ apps=(
   git
   vim
   wget
+  ImageMagick
 )
 
 brew install "${apps[@]}"
